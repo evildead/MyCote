@@ -1,0 +1,37 @@
+{
+    "dbConnection": "MYCOTE_DBCONNECTION",
+    "server": {
+        "port": "MYCOTE_SERVER_PORT",
+        "bind-address": "MYCOTE_SERVER_BINDADDRESS",
+        "hostname": "MYCOTE_SERVER_HOSTNAME"
+    },
+    "logHelper": {
+        "logLevelConsole": "MYCOTE_LOGHELPER_LOGLEVELCONSOLE",
+        "logLevelMongoDB": "MYCOTE_LOGHELPER_LOGLEVELMONGODB",
+        "logLevelFile": "MYCOTE_LOGHELPER_LOGLEVELFILE",
+        "enableConsole": "MYCOTE_LOGHELPER_ENABLECONSOLE",
+        "enableDatabase": "MYCOTE_LOGHELPER_ENABLEDATABASE",
+        "enableFile": "MYCOTE_LOGHELPER_ENABLEFILE"
+    },
+    "external-api": {
+        
+    },
+    "cote": {
+        "environment": "MYCOTE_COTE_ENVIRONMENT",
+        "key-sendemail": "MYCOTE_COTE_KEYSENDEMAIL",
+        "key-savecontact": "MYCOTE_COTE_KEYSAVECONTACT"
+    },
+    "redis": {
+        "host": "MYCOTE_REDIS_HOST",
+        "port": "MYCOTE_REDIS_PORT",
+        "pw": "MYCOTE_REDIS_PW"
+    },
+    "emailSender": {
+        "host": "MYCOTE_EMAILSENDER_HOST",
+        "port": "MYCOTE_EMAILSENDER_PORT",
+        "accountName": "MYCOTE_EMAILSENDER_ACCOUNTNAME",
+        "accountPw": "MYCOTE_EMAILSENDER_ACCOUNTPW",
+        "from": "MYCOTE_EMAILSENDER_FROM",
+        "to": "MYCOTE_EMAILSENDER_TO"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "dbConnection": "mongodb://usr:pw@localhost:27017/db",
+    "server": {
+        "port": 5005,
+        "bind-address": "localhost",
+        "hostname": "http://localhost:5005"
+    },
+    "logHelper": {
+        "logLevelConsole": "info",
+        "logLevelMongoDB": "info",
+        "logLevelFile": "info",
+        "enableConsole": true,
+        "enableDatabase": true,
+        "enableFile": false
+    },
+    "external-api": {
+        
+    },
+    "cote": {
+        "environment": "mycote",
+        "key-sendemail": "mycote-key-sendemail",
+        "key-savecontact": "mycote-key-savecontact"
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "pw": ""
+    },
+    "emailSender": {
+        "host": "",
+        "port": 587,
+        "accountName": "",
+        "accountPw": "",
+        "from": "",
+        "to": ""
+    }
+}
