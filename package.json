@@ -1,13 +1,18 @@
 {
   "name": "mycote",
   "version": "1.0.0",
-  "description": "Microservices built using cote and Redis transporter",
+  "description": "Microservices application built using cote and Redis transporter",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evildead/MyCote.git"
+  },
   "main": "server.js",
   "scripts": {
     "test": "mocha",
     "start": "node server.js",
     "emailer": "node app/services/emailer.js",
-    "contactsaver": "node app/services/webContactSaver.js"
+    "contactsaver": "node app/services/webContactSaver.js",
+    "monitor": "node app/cote/monitor.js"
   },
   "keywords": [
     "node",
